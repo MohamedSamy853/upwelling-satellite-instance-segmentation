@@ -1,0 +1,6 @@
+## Upwelling Satellite Image Analysis with Label Studio and Instance Segmentation
+This repository provides a workflow for upwelling satellite image analysis using Label Studio, image conversion from NetCDF (nc) files to PNG format, and instance segmentation. The goal is to detect regions associated with upwelling phonemes by extracting masks from PNG images derived from NetCDF files. These masks are then used to train a U-Net model for instance segmentation.
+## Introduction
+Upwelling satellite images provide valuable information for studying oceanic conditions, climate research, and resource management. This project utilizes Label Studio, an open-source data labeling tool, to annotate upwelling phonemes in these images. The workflow involves converting NetCDF files to PNG format, extracting masks from the labeled PNG images, and training a U-Net model for instance segmentation.
+
+By leveraging Label Studio, we can easily annotate regions of interest in the upwelling satellite images and generate corresponding PNG files. These PNG images serve as input for the instance segmentation pipeline. Using a U-Net model, we can train a deep learning algorithm to accurately detect and segment regions associated with upwelling phonemes.
